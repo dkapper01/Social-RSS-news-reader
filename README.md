@@ -1,0 +1,1 @@
+Fully-featured social RSS news reader built with Next.js, Graphql

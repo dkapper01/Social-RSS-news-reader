@@ -1,0 +1,29 @@
+{
+  "name": "newprism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "prisma:init": "prisma init",
+    "prisma:migrate": "prisma migrate dev --preview-feature",
+    "prisma:generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.19.0",
+    "next": "^10.0.9",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.19.0",
+    "@types/node": "^14.14.35",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.3"
+  }
+}
